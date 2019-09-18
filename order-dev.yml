@@ -5,13 +5,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     passowrd: 123456
-    url: jdbc:mysql:127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        server-id: CONFIG
-      profile: dev
+    url: jdbc:mysql:127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&userSSL=false
 eureka:
   client:
     service-url:
