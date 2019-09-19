@@ -4,7 +4,7 @@ spring:
     datasource:
         type: mysql
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://${MYSQL_HOST:192.168.188.150}:${MYSQL_PORT:3306}/zdemo_SpringCloud_Sell?useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+        url: jdbc:mysql://192.168.188.150:3306/zdemo_SpringCloud_Sell?useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
         username: root
         password: Root_123456!
     rabbitmq:
