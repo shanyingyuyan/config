@@ -1,14 +1,14 @@
 spring:
   application:
-        name: product
-    datasource:
-        type: mysql
-        driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://192.168.188.150:3306/zdemo_SpringCloud_Sell?useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
-        username: root
-        password: Root_123456!
-    rabbitmq:
-        host: 192.168.188.150
-        port: 5672
-        username: admin
-        password: 123456
+    name: product
+  datasource:
+    type: mysql
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.188.150:3306/zdemo_SpringCloud_Sell?useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+    username: root
+    password: Root_123456!
+  rabbitmq:
+    host: 192.168.188.150
+    port: 5672
+    username: admin
+    password: 123456
