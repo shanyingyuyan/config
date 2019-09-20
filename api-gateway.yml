@@ -30,4 +30,5 @@ ribbon:
   ReadTimeout: 5000
   SocketTimeout: 5000
     
-    
+server:
+  port: 8086
