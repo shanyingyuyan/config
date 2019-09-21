@@ -37,3 +37,5 @@ ribbon:
     
 server:
   port: 8086
+  #解决 com.netflix.zuul.exception.ZuulException:  at org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter.findZuulException
+  connection-timeout: 30000
